@@ -71,12 +71,18 @@ con tributing üsteps
 ## selecting an issue
 
 ? [WIP] in front ?
+? [3.9] ? nur in 3.9
+
+? [4.0]
+
 
 ## Creating a branch
 
 git fetch upstream
 
 1) checkout starting branch
+
+Wann master, wann ... dev... branch ? 3.x dev still used
 
 git branch <name>
 git checkout <name>
