@@ -76,7 +76,9 @@ con tributing üsteps
 ? [4.0]
 
 
-## Creating a branch
+## Creating a branch for issue
+
+#### branch in local directory
 
 git fetch upstream
 
@@ -91,6 +93,14 @@ oder in einem
 
 git checkout -b <name>
 
+##### branch in worktree
+
+
+##### remove accidental created worktree
+
+delete worktree folder
+
+git worktree prune
 
 
 ## pull requests
@@ -100,6 +110,18 @@ git checkout -b <name>
 https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests
 
 
+
+
+### remove branch after pull request is accepted
+
+In github source repository select branches 
+your branches / active branches
+
+Use the wast basked symbol behind the pull branch to delete this branch
+you may have to delete it on the PC too
+
+? pull deletes reference
+? Delete folder if on worktree
 
 # Tip and Tricks 
 
